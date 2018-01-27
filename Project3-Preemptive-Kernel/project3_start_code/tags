@@ -1,0 +1,890 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADEL	interrupt.c	/^     ADEL,$/;"	e	enum:ExcCode	file:
+ADES	interrupt.c	/^     ADES,$/;"	e	enum:ExcCode	file:
+AR	Makefile	/^AR		= $(CROSS_COMPILE)ar$/;"	m
+ARGS	createimage.c	10;"	d	file:
+AS	Makefile	/^AS		= $(CROSS_COMPILE)as$/;"	m
+ASSERT	common.h	45;"	d
+ASSERT2	common.h	33;"	d
+AT	regs.h	3;"	d
+BLOCKED	scheduler.h	/^     BLOCKED,$/;"	e	enum:__anon3
+BOOT_LOADER_SIG_1	createimage.c	15;"	d	file:
+BOOT_LOADER_SIG_2	createimage.c	16;"	d	file:
+BOOT_LOADER_SIG_OFFSET	createimage.c	14;"	d	file:
+BOOT_MEM_LOC	createimage.c	17;"	d	file:
+BP	interrupt.c	/^     BP,$/;"	e	enum:ExcCode	file:
+CAUSE_EXCCODE	cp0regdefs.h	43;"	d
+CAUSE_IPL	cp0regdefs.h	42;"	d
+CC	Makefile	/^CC		= $(CROSS_COMPILE)gcc$/;"	m
+CHAR_BIT	freestanding-inc/limits.h	5;"	d
+CHAR_BIT	freestanding-inc/limits.h	6;"	d
+CHAR_MAX	freestanding-inc/limits.h	35;"	d
+CHAR_MAX	freestanding-inc/limits.h	36;"	d
+CHAR_MAX	freestanding-inc/limits.h	40;"	d
+CHAR_MAX	freestanding-inc/limits.h	41;"	d
+CHAR_MIN	freestanding-inc/limits.h	29;"	d
+CHAR_MIN	freestanding-inc/limits.h	31;"	d
+CHAR_MIN	freestanding-inc/limits.h	33;"	d
+CHAR_MIN	freestanding-inc/limits.h	38;"	d
+CHAR_MIN	freestanding-inc/limits.h	39;"	d
+COLUMNS	process1.c	8;"	d	file:
+COLUMNS	test_all/process1.c	8;"	d	file:
+COMMON_H	common.h	5;"	d
+CP0_BADVADDR	cp0regdefs.h	17;"	d
+CP0_CACHEERR	cp0regdefs.h	34;"	d
+CP0_CAUSE	cp0regdefs.h	22;"	d
+CP0_COMPARE	cp0regdefs.h	20;"	d
+CP0_CONFIG	cp0regdefs.h	25;"	d
+CP0_CONTEXT	cp0regdefs.h	14;"	d
+CP0_COUNT	cp0regdefs.h	18;"	d
+CP0_DIAGNOSTIC	cp0regdefs.h	31;"	d
+CP0_ECC	cp0regdefs.h	33;"	d
+CP0_ENTRYHI	cp0regdefs.h	19;"	d
+CP0_ENTRYLO0	cp0regdefs.h	12;"	d
+CP0_ENTRYLO1	cp0regdefs.h	13;"	d
+CP0_EPC	cp0regdefs.h	23;"	d
+CP0_ERROREPC	cp0regdefs.h	37;"	d
+CP0_FRAMEMASK	cp0regdefs.h	30;"	d
+CP0_INDEX	cp0regdefs.h	10;"	d
+CP0_LLADDR	cp0regdefs.h	26;"	d
+CP0_PAGEMASK	cp0regdefs.h	15;"	d
+CP0_PERFORMANCE	cp0regdefs.h	32;"	d
+CP0_PRID	cp0regdefs.h	24;"	d
+CP0_RANDOM	cp0regdefs.h	11;"	d
+CP0_STATUS	cp0regdefs.h	21;"	d
+CP0_TAGHI	cp0regdefs.h	36;"	d
+CP0_TAGLO	cp0regdefs.h	35;"	d
+CP0_WATCHHI	cp0regdefs.h	28;"	d
+CP0_WATCHLO	cp0regdefs.h	27;"	d
+CP0_WIRED	cp0regdefs.h	16;"	d
+CP0_XCONTEXT	cp0regdefs.h	29;"	d
+CPP	Makefile	/^CPP		= $(CC) -E$/;"	m
+CPU	interrupt.c	/^     CPU,$/;"	e	enum:ExcCode	file:
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = mipsel-linux-$/;"	m
+C_f	freestanding-inc/g2c.h	/^typedef void C_f;	\/* complex function *\/$/;"	t
+C_fp	freestanding-inc/g2c.h	/^typedef \/* Complex *\/ void (*C_fp)();$/;"	t
+C_fp	freestanding-inc/g2c.h	/^typedef \/* Complex *\/ void (*C_fp)(...);$/;"	t
+Ctod	print.c	16;"	d	file:
+DBE	interrupt.c	/^     DBE,$/;"	e	enum:ExcCode	file:
+DBL_DIG	freestanding-inc/float.h	54;"	d
+DBL_DIG	freestanding-inc/float.h	57;"	d
+DBL_EPSILON	freestanding-inc/float.h	114;"	d
+DBL_EPSILON	freestanding-inc/float.h	117;"	d
+DBL_MANT_DIG	freestanding-inc/float.h	40;"	d
+DBL_MANT_DIG	freestanding-inc/float.h	43;"	d
+DBL_MAX	freestanding-inc/float.h	105;"	d
+DBL_MAX	freestanding-inc/float.h	108;"	d
+DBL_MAX_10_EXP	freestanding-inc/float.h	94;"	d
+DBL_MAX_10_EXP	freestanding-inc/float.h	97;"	d
+DBL_MAX_EXP	freestanding-inc/float.h	82;"	d
+DBL_MAX_EXP	freestanding-inc/float.h	85;"	d
+DBL_MIN	freestanding-inc/float.h	122;"	d
+DBL_MIN	freestanding-inc/float.h	125;"	d
+DBL_MIN_10_EXP	freestanding-inc/float.h	74;"	d
+DBL_MIN_10_EXP	freestanding-inc/float.h	77;"	d
+DBL_MIN_EXP	freestanding-inc/float.h	62;"	d
+DBL_MIN_EXP	freestanding-inc/float.h	65;"	d
+DECIMAL_DIG	freestanding-inc/float.h	158;"	d
+DECIMAL_DIG	freestanding-inc/float.h	159;"	d
+D_fp	freestanding-inc/g2c.h	/^typedef doublereal (*D_fp)(), (*E_fp)();$/;"	t
+D_fp	freestanding-inc/g2c.h	/^typedef doublereal (*D_fp)(...), (*E_fp)(...);$/;"	t
+EBASE	interrupt.c	12;"	d	file:
+EBASE_OFFSET	interrupt.c	13;"	d	file:
+EC_DEADLOCK	common.h	11;"	d
+EC_PRIORITIES	common.h	10;"	d
+END	asm.h	35;"	d
+EXITED	scheduler.h	/^     EXITED,$/;"	e	enum:__anon3
+EXPORT	asm.h	39;"	d
+E_f	freestanding-inc/g2c.h	/^typedef doublereal E_f;	\/* real function with -R not specified *\/$/;"	t
+E_fp	freestanding-inc/g2c.h	/^typedef doublereal (*D_fp)(), (*E_fp)();$/;"	t
+E_fp	freestanding-inc/g2c.h	/^typedef doublereal (*D_fp)(...), (*E_fp)(...);$/;"	t
+ExcCode	interrupt.c	/^enum ExcCode$/;"	g	file:
+Extern	freestanding-inc/g2c.h	43;"	d
+F2C_INCLUDE	freestanding-inc/g2c.h	17;"	d
+F2C_proc_par_types	freestanding-inc/g2c.h	177;"	d
+FALSE	common.h	/^    FALSE, TRUE$/;"	e	enum:__anon20
+FALSE_	freestanding-inc/g2c.h	39;"	d
+FEXPORT	asm.h	43;"	d
+FIRST_TIME	scheduler.h	/^     FIRST_TIME,$/;"	e	enum:__anon3
+FLT_DIG	freestanding-inc/float.h	53;"	d
+FLT_DIG	freestanding-inc/float.h	56;"	d
+FLT_EPSILON	freestanding-inc/float.h	113;"	d
+FLT_EPSILON	freestanding-inc/float.h	116;"	d
+FLT_EVAL_METHOD	freestanding-inc/float.h	147;"	d
+FLT_EVAL_METHOD	freestanding-inc/float.h	148;"	d
+FLT_MANT_DIG	freestanding-inc/float.h	39;"	d
+FLT_MANT_DIG	freestanding-inc/float.h	42;"	d
+FLT_MAX	freestanding-inc/float.h	104;"	d
+FLT_MAX	freestanding-inc/float.h	107;"	d
+FLT_MAX_10_EXP	freestanding-inc/float.h	93;"	d
+FLT_MAX_10_EXP	freestanding-inc/float.h	96;"	d
+FLT_MAX_EXP	freestanding-inc/float.h	81;"	d
+FLT_MAX_EXP	freestanding-inc/float.h	84;"	d
+FLT_MIN	freestanding-inc/float.h	121;"	d
+FLT_MIN	freestanding-inc/float.h	124;"	d
+FLT_MIN_10_EXP	freestanding-inc/float.h	73;"	d
+FLT_MIN_10_EXP	freestanding-inc/float.h	76;"	d
+FLT_MIN_EXP	freestanding-inc/float.h	61;"	d
+FLT_MIN_EXP	freestanding-inc/float.h	64;"	d
+FLT_RADIX	freestanding-inc/float.h	35;"	d
+FLT_RADIX	freestanding-inc/float.h	36;"	d
+FLT_ROUNDS	freestanding-inc/float.h	130;"	d
+FLT_ROUNDS	freestanding-inc/float.h	131;"	d
+FPE	interrupt.c	/^     FPE=15,$/;"	e	enum:ExcCode	file:
+GDT_SIZE	kernel.h	/^    GDT_SIZE = 7,$/;"	e	enum:__anon1
+HALT	common.h	46;"	d
+H_f	freestanding-inc/g2c.h	/^typedef void H_f;	\/* character function *\/$/;"	t
+H_fp	freestanding-inc/g2c.h	/^typedef \/* Character *\/ void (*H_fp)();$/;"	t
+H_fp	freestanding-inc/g2c.h	/^typedef \/* Character *\/ void (*H_fp)(...);$/;"	t
+IBE	interrupt.c	/^     IBE,$/;"	e	enum:ExcCode	file:
+IDT_SIZE	kernel.h	/^    IDT_SIZE = 49,$/;"	e	enum:__anon1
+IDT_SYSCALL_POS	kernel.h	/^    IDT_SYSCALL_POS = 48,       \/* system call IDT entry *\/$/;"	e	enum:__anon1
+IGNORE	syslib.h	/^    IGNORE = 0$/;"	e	enum:__anon4
+IMAGE_FILE	createimage.c	9;"	d	file:
+INT	interrupt.c	/^     INT,$/;"	e	enum:ExcCode	file:
+INTERRUPT_GATE	kernel.h	/^    INTERRUPT_GATE = 0x0e,      \/* interrupt gate descriptor *\/$/;"	e	enum:__anon1
+INTERRUPT_H	interrupt.h	5;"	d
+INT_MAX	freestanding-inc/limits.h	61;"	d
+INT_MAX	freestanding-inc/limits.h	62;"	d
+INT_MIN	freestanding-inc/limits.h	59;"	d
+INT_MIN	freestanding-inc/limits.h	60;"	d
+IRQ_START	kernel.h	/^    IRQ_START = 32,             \/* remapped irq0 IDT entry *\/$/;"	e	enum:__anon1
+I_fp	freestanding-inc/g2c.h	/^typedef integer (*I_fp)();$/;"	t
+I_fp	freestanding-inc/g2c.h	/^typedef integer (*I_fp)(...);$/;"	t
+IsDigit	print.c	15;"	d	file:
+J_fp	freestanding-inc/g2c.h	/^typedef shortint (*J_fp)();$/;"	t
+J_fp	freestanding-inc/g2c.h	/^typedef shortint (*J_fp)(...);$/;"	t
+KERNEL_ADDR	Makefile	/^KERNEL_ADDR = 0xa0800200$/;"	m
+KERNEL_CS	kernel.h	/^    KERNEL_CS = 1 << 3,$/;"	e	enum:__anon1
+KERNEL_H	kernel.h	5;"	d
+KERNEL_THREAD	scheduler.h	/^     KERNEL_THREAD,$/;"	e	enum:__anon2
+K_fp	freestanding-inc/g2c.h	/^typedef shortlogical (*K_fp)();$/;"	t
+K_fp	freestanding-inc/g2c.h	/^typedef shortlogical (*K_fp)(...);$/;"	t
+LD	Makefile	/^LD		= $(CROSS_COMPILE)ld$/;"	m
+LDBL_DIG	freestanding-inc/float.h	55;"	d
+LDBL_DIG	freestanding-inc/float.h	58;"	d
+LDBL_EPSILON	freestanding-inc/float.h	115;"	d
+LDBL_EPSILON	freestanding-inc/float.h	118;"	d
+LDBL_MANT_DIG	freestanding-inc/float.h	41;"	d
+LDBL_MANT_DIG	freestanding-inc/float.h	44;"	d
+LDBL_MAX	freestanding-inc/float.h	106;"	d
+LDBL_MAX	freestanding-inc/float.h	109;"	d
+LDBL_MAX_10_EXP	freestanding-inc/float.h	95;"	d
+LDBL_MAX_10_EXP	freestanding-inc/float.h	98;"	d
+LDBL_MAX_EXP	freestanding-inc/float.h	83;"	d
+LDBL_MAX_EXP	freestanding-inc/float.h	86;"	d
+LDBL_MIN	freestanding-inc/float.h	123;"	d
+LDBL_MIN	freestanding-inc/float.h	126;"	d
+LDBL_MIN_10_EXP	freestanding-inc/float.h	75;"	d
+LDBL_MIN_10_EXP	freestanding-inc/float.h	78;"	d
+LDBL_MIN_EXP	freestanding-inc/float.h	63;"	d
+LDBL_MIN_EXP	freestanding-inc/float.h	66;"	d
+LEAF	asm.h	14;"	d
+LINE	process2.c	10;"	d	file:
+LINE	test_all/process2.c	10;"	d	file:
+LLONG_MAX	freestanding-inc/limits.h	83;"	d
+LLONG_MAX	freestanding-inc/limits.h	84;"	d
+LLONG_MIN	freestanding-inc/limits.h	81;"	d
+LLONG_MIN	freestanding-inc/limits.h	82;"	d
+LOCKED	sync.h	/^        LOCKED$/;"	e	enum:__anon16::__anon17
+LONG_LONG_MAX	freestanding-inc/limits.h	95;"	d
+LONG_LONG_MAX	freestanding-inc/limits.h	96;"	d
+LONG_LONG_MIN	freestanding-inc/limits.h	93;"	d
+LONG_LONG_MIN	freestanding-inc/limits.h	94;"	d
+LONG_MAX	freestanding-inc/limits.h	72;"	d
+LONG_MAX	freestanding-inc/limits.h	73;"	d
+LONG_MIN	freestanding-inc/limits.h	70;"	d
+LONG_MIN	freestanding-inc/limits.h	71;"	d
+LP_MAX_BUF	print.h	18;"	d
+L_fp	freestanding-inc/g2c.h	/^typedef logical (*L_fp)();$/;"	t
+L_fp	freestanding-inc/g2c.h	/^typedef logical (*L_fp)(...);$/;"	t
+MB_LEN_MAX	freestanding-inc/limits.h	10;"	d
+MIN_COUNTERS_PER_SECOND	test_blocksleep/th1.c	8;"	d	file:
+MOD	interrupt.c	/^     MOD,$/;"	e	enum:ExcCode	file:
+Multitype	freestanding-inc/g2c.h	/^typedef union Multitype Multitype;$/;"	t	typeref:union:Multitype
+Multitype	freestanding-inc/g2c.h	/^union Multitype {	\/* for multiple entry points *\/$/;"	u
+NESTED	asm.h	24;"	d
+NM	Makefile	/^NM		= $(CROSS_COMPILE)nm$/;"	m
+NULL	common.h	7;"	d
+NULL	freestanding-inc/stddef.h	397;"	d
+NULL	freestanding-inc/stddef.h	399;"	d
+NULL	freestanding-inc/stddef.h	402;"	d
+NULL	freestanding-inc/stddef.h	404;"	d
+NUM_PCBS	kernel.c	15;"	d	file:
+NUM_SYSCALLS	common.h	/^    NUM_SYSCALLS$/;"	e	enum:__anon19
+NUM_TASKS	tasks.c	/^    NUM_TASKS = sizeof task \/ sizeof(struct task_info)$/;"	e	enum:__anon22	file:
+NUM_TASKS	test_all/tasks.c	/^    NUM_TASKS = sizeof task \/ sizeof(struct task_info)$/;"	e	enum:__anon21	file:
+NUM_TASKS	test_blocksleep/tasks.c	/^    NUM_TASKS = sizeof task \/ sizeof(struct task_info)$/;"	e	enum:__anon18	file:
+NUM_TASKS	test_preempt/tasks.c	/^    NUM_TASKS = sizeof task \/ sizeof(struct task_info)$/;"	e	enum:__anon5	file:
+Namelist	freestanding-inc/g2c.h	/^struct Namelist {$/;"	s
+Namelist	freestanding-inc/g2c.h	/^typedef struct Namelist Namelist;$/;"	t	typeref:struct:Namelist
+OBJCOPY	Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+OS_MEM_LOC	createimage.c	18;"	d	file:
+OS_SIZE_LOC	createimage.c	13;"	d	file:
+OUTPUT	print.c	39;"	d	file:
+OV	interrupt.c	/^     OV,$/;"	e	enum:ExcCode	file:
+PORT3F8	util.c	8;"	d	file:
+PORT3FD	util.c	9;"	d	file:
+PORT3f8	kernel.c	144;"	d	file:
+PORT3fd	kernel.c	145;"	d	file:
+PREEMPT_TICKS	kernel.h	/^    PREEMPT_TICKS = 1193,       \/* Timer interrupt every 1ms *\/$/;"	e	enum:__anon1
+PRINTF_H	printf.h	5;"	d
+PROC	scheduler.h	39;"	d
+PROC1_ADDR	Makefile	/^PROC1_ADDR = 0xa0807400$/;"	m
+PROC2_ADDR	Makefile	/^PROC2_ADDR = 0xa0808200$/;"	m
+PROCESS	scheduler.h	/^     PROCESS$/;"	e	enum:__anon2
+PrintChar	print.c	/^PrintChar(char *buf, char c, int length, int ladjust)$/;"	f
+PrintNum	print.c	/^PrintNum(char *buf, unsigned long u, int base, int negFlag,$/;"	f
+PrintString	print.c	/^PrintString(char *buf, char *s, int length, int ladjust)$/;"	f
+QUEUE_H	queue.h	6;"	d
+READY	scheduler.h	/^     READY,$/;"	e	enum:__anon3
+REFRESH_SCREEN_RATE	interrupt.c	37;"	d	file:
+RI	interrupt.c	/^     RI,$/;"	e	enum:ExcCode	file:
+ROWS	process1.c	7;"	d	file:
+ROWS	test_all/process1.c	7;"	d	file:
+R_fp	freestanding-inc/g2c.h	/^typedef real (*R_fp)();$/;"	t
+R_fp	freestanding-inc/g2c.h	/^typedef real (*R_fp)(...);$/;"	t
+SCHAR_MAX	freestanding-inc/limits.h	16;"	d
+SCHAR_MAX	freestanding-inc/limits.h	17;"	d
+SCHAR_MIN	freestanding-inc/limits.h	14;"	d
+SCHAR_MIN	freestanding-inc/limits.h	15;"	d
+SCHEDULER_H	scheduler.h	7;"	d
+SECTOR_SIZE	createimage.c	12;"	d	file:
+SHRT_MAX	freestanding-inc/limits.h	47;"	d
+SHRT_MAX	freestanding-inc/limits.h	48;"	d
+SHRT_MIN	freestanding-inc/limits.h	45;"	d
+SHRT_MIN	freestanding-inc/limits.h	46;"	d
+SIZE	Makefile	/^SIZE		= $(CROSS_COMPILE)size$/;"	m
+SLEEPING	scheduler.h	/^     SLEEPING$/;"	e	enum:__anon3
+SLEEP_TIME_SECONDS	test_blocksleep/th1.c	6;"	d	file:
+STATUS_CU0	cp0regdefs.h	40;"	d
+STATUS_IE	cp0regdefs.h	41;"	d
+STRIP	Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+SYS	interrupt.c	/^     SYS,$/;"	e	enum:ExcCode	file:
+SYSCALL_EXIT	common.h	/^    SYSCALL_EXIT,$/;"	e	enum:__anon19
+SYSCALL_GETPID	common.h	/^    SYSCALL_GETPID,$/;"	e	enum:__anon19
+SYSCALL_GETPRIORITY	common.h	/^    SYSCALL_GETPRIORITY,$/;"	e	enum:__anon19
+SYSCALL_PRINT_CHAR	common.h	/^    SYSCALL_PRINT_CHAR,$/;"	e	enum:__anon19
+SYSCALL_SETPRIORITY	common.h	/^    SYSCALL_SETPRIORITY,$/;"	e	enum:__anon19
+SYSCALL_SHUTDOWN	common.h	/^    SYSCALL_SHUTDOWN,$/;"	e	enum:__anon19
+SYSCALL_SLEEP	common.h	/^    SYSCALL_SLEEP,$/;"	e	enum:__anon19
+SYSCALL_WRITE_SERIAL	common.h	/^    SYSCALL_WRITE_SERIAL,$/;"	e	enum:__anon19
+SYSCALL_YIELD	common.h	/^    SYSCALL_YIELD=0,$/;"	e	enum:__anon19
+SYSLIB_H	syslib.h	5;"	d
+S_fp	freestanding-inc/g2c.h	/^typedef \/* Subroutine *\/ int (*S_fp)();$/;"	t
+S_fp	freestanding-inc/g2c.h	/^typedef \/* Subroutine *\/ int (*S_fp)(...);$/;"	t
+TF_BADVADDR	regs.h	98;"	d
+TF_CAUSE	regs.h	99;"	d
+TF_EPC	regs.h	100;"	d
+TF_HI	regs.h	95;"	d
+TF_LO	regs.h	96;"	d
+TF_PC	regs.h	101;"	d
+TF_REG0	regs.h	57;"	d
+TF_REG1	regs.h	58;"	d
+TF_REG10	regs.h	67;"	d
+TF_REG11	regs.h	68;"	d
+TF_REG12	regs.h	69;"	d
+TF_REG13	regs.h	70;"	d
+TF_REG14	regs.h	71;"	d
+TF_REG15	regs.h	72;"	d
+TF_REG16	regs.h	73;"	d
+TF_REG17	regs.h	74;"	d
+TF_REG18	regs.h	75;"	d
+TF_REG19	regs.h	76;"	d
+TF_REG2	regs.h	59;"	d
+TF_REG20	regs.h	77;"	d
+TF_REG21	regs.h	78;"	d
+TF_REG22	regs.h	79;"	d
+TF_REG23	regs.h	80;"	d
+TF_REG24	regs.h	81;"	d
+TF_REG25	regs.h	82;"	d
+TF_REG26	regs.h	86;"	d
+TF_REG27	regs.h	87;"	d
+TF_REG28	regs.h	88;"	d
+TF_REG29	regs.h	89;"	d
+TF_REG3	regs.h	60;"	d
+TF_REG30	regs.h	90;"	d
+TF_REG31	regs.h	91;"	d
+TF_REG4	regs.h	61;"	d
+TF_REG5	regs.h	62;"	d
+TF_REG6	regs.h	63;"	d
+TF_REG7	regs.h	64;"	d
+TF_REG8	regs.h	65;"	d
+TF_REG9	regs.h	66;"	d
+TF_SIZE	regs.h	105;"	d
+TF_STATUS	regs.h	93;"	d
+TH	scheduler.h	37;"	d
+THREAD_H	sync.h	7;"	d
+TH_H	test_all/th.h	4;"	d
+TH_H	test_blocksleep/th.h	4;"	d
+TH_H	test_preempt/th.h	4;"	d
+TH_H	th.h	4;"	d
+TIMER_INTERVAL	interrupt.c	36;"	d	file:
+TLBL	interrupt.c	/^     TLBL,$/;"	e	enum:ExcCode	file:
+TLBS	interrupt.c	/^     TLBS,$/;"	e	enum:ExcCode	file:
+TR	interrupt.c	/^     TR,$/;"	e	enum:ExcCode	file:
+TRUE	common.h	/^    FALSE, TRUE$/;"	e	enum:__anon20
+TRUE_	freestanding-inc/g2c.h	38;"	d
+TSC_PER_SECOND	test_blocksleep/th1.c	7;"	d	file:
+Trapframe	scheduler.h	/^typedef struct Trapframe {$/;"	s
+UCHAR_MAX	freestanding-inc/limits.h	20;"	d
+UCHAR_MAX	freestanding-inc/limits.h	22;"	d
+UCHAR_MAX	freestanding-inc/limits.h	24;"	d
+UINT_MAX	freestanding-inc/limits.h	65;"	d
+UINT_MAX	freestanding-inc/limits.h	66;"	d
+ULLONG_MAX	freestanding-inc/limits.h	87;"	d
+ULLONG_MAX	freestanding-inc/limits.h	88;"	d
+ULONG_LONG_MAX	freestanding-inc/limits.h	100;"	d
+ULONG_LONG_MAX	freestanding-inc/limits.h	99;"	d
+ULONG_MAX	freestanding-inc/limits.h	76;"	d
+ULONG_MAX	freestanding-inc/limits.h	77;"	d
+UNLOCKED	sync.h	/^        UNLOCKED,$/;"	e	enum:__anon16::__anon17
+USHRT_MAX	freestanding-inc/limits.h	51;"	d
+USHRT_MAX	freestanding-inc/limits.h	53;"	d
+USHRT_MAX	freestanding-inc/limits.h	55;"	d
+UTIL_H	util.h	5;"	d
+U_fp	freestanding-inc/g2c.h	/^typedef int \/* Unknown procedure type *\/ (*U_fp)();$/;"	t
+U_fp	freestanding-inc/g2c.h	/^typedef int \/* Unknown procedure type *\/ (*U_fp)(...);$/;"	t
+Vardesc	freestanding-inc/g2c.h	/^struct Vardesc {	\/* for Namelist *\/$/;"	s
+Vardesc	freestanding-inc/g2c.h	/^typedef struct Vardesc Vardesc;$/;"	t	typeref:struct:Vardesc
+WATCH	interrupt.c	/^     WATCH=23$/;"	e	enum:ExcCode	file:
+Z_f	freestanding-inc/g2c.h	/^typedef void Z_f;	\/* double complex function *\/$/;"	t
+Z_fp	freestanding-inc/g2c.h	/^typedef \/* Double Complex *\/ void (*Z_fp)();$/;"	t
+Z_fp	freestanding-inc/g2c.h	/^typedef \/* Double Complex *\/ void (*Z_fp)(...);$/;"	t
+_ANSI_STDARG_H_	freestanding-inc/stdarg.h	35;"	d
+_ANSI_STDDEF_H	freestanding-inc/stddef.h	45;"	d
+_BSD_PTRDIFF_T_	freestanding-inc/stddef.h	145;"	d
+_BSD_PTRDIFF_T_	freestanding-inc/stddef.h	367;"	d
+_BSD_PTRDIFF_T_	freestanding-inc/stddef.h	380;"	d
+_BSD_PTRDIFF_T_	freestanding-inc/stddef.h	84;"	d
+_BSD_RUNE_T_	freestanding-inc/stddef.h	302;"	d
+_BSD_RUNE_T_DEFINED_	freestanding-inc/stddef.h	296;"	d
+_BSD_SIZE_T_	freestanding-inc/stddef.h	196;"	d
+_BSD_SIZE_T_	freestanding-inc/stddef.h	371;"	d
+_BSD_SIZE_T_	freestanding-inc/stddef.h	384;"	d
+_BSD_SIZE_T_	freestanding-inc/stddef.h	88;"	d
+_BSD_SIZE_T_DEFINED_	freestanding-inc/stddef.h	199;"	d
+_BSD_VA_LIST	freestanding-inc/stdarg.h	70;"	d
+_BSD_WCHAR_T_	freestanding-inc/stddef.h	271;"	d
+_BSD_WCHAR_T_	freestanding-inc/stddef.h	291;"	d
+_BSD_WCHAR_T_	freestanding-inc/stddef.h	375;"	d
+_BSD_WCHAR_T_	freestanding-inc/stddef.h	388;"	d
+_BSD_WCHAR_T_	freestanding-inc/stddef.h	92;"	d
+_BSD_WCHAR_T_DEFINED_	freestanding-inc/stddef.h	295;"	d
+_Bool	freestanding-inc/stdbool.h	43;"	d
+_FLOAT_H___	freestanding-inc/float.h	32;"	d
+_GCC_NEXT_LIMITS_H	freestanding-inc/syslimits.h	6;"	d
+_GCC_NEXT_LIMITS_H	freestanding-inc/syslimits.h	8;"	d
+_GCC_PTRDIFF_T	freestanding-inc/stddef.h	147;"	d
+_GCC_SIZE_T	freestanding-inc/stddef.h	202;"	d
+_GCC_WCHAR_T	freestanding-inc/stddef.h	277;"	d
+_ISO646_H	freestanding-inc/iso646.h	32;"	d
+_LIMITS_H___	freestanding-inc/limits.h	2;"	d
+_PTRDIFF_T	freestanding-inc/stddef.h	140;"	d
+_PTRDIFF_T	freestanding-inc/stddef.h	72;"	d
+_PTRDIFF_T_	freestanding-inc/stddef.h	144;"	d
+_PTRDIFF_T_	freestanding-inc/stddef.h	366;"	d
+_PTRDIFF_T_	freestanding-inc/stddef.h	379;"	d
+_PTRDIFF_T_	freestanding-inc/stddef.h	83;"	d
+_PTRDIFF_T_	freestanding-inc/stddef.h	99;"	d
+_RUNE_T_DECLARED	freestanding-inc/stddef.h	315;"	d
+_SIZET_	freestanding-inc/stddef.h	203;"	d
+_SIZE_T	freestanding-inc/stddef.h	190;"	d
+_SIZE_T	freestanding-inc/stddef.h	69;"	d
+_SIZE_T_	freestanding-inc/stddef.h	195;"	d
+_SIZE_T_	freestanding-inc/stddef.h	370;"	d
+_SIZE_T_	freestanding-inc/stddef.h	383;"	d
+_SIZE_T_	freestanding-inc/stddef.h	87;"	d
+_SIZE_T_DECLARED	freestanding-inc/stddef.h	200;"	d
+_SIZE_T_DEFINED	freestanding-inc/stddef.h	198;"	d
+_SIZE_T_DEFINED_	freestanding-inc/stddef.h	197;"	d
+_STDARG_H	freestanding-inc/stdarg.h	34;"	d
+_STDBOOL_H	freestanding-inc/stdbool.h	32;"	d
+_STDDEF_H	freestanding-inc/stddef.h	42;"	d
+_STDDEF_H_	freestanding-inc/stddef.h	43;"	d
+_SYS_SIZE_T_H	freestanding-inc/stddef.h	191;"	d
+_TYPE_ptrdiff_t	freestanding-inc/stddef.h	110;"	d
+_TYPE_size_t	freestanding-inc/stddef.h	114;"	d
+_TYPE_wchar_t	freestanding-inc/stddef.h	118;"	d
+_T_PTRDIFF	freestanding-inc/stddef.h	142;"	d
+_T_PTRDIFF_	freestanding-inc/stddef.h	141;"	d
+_T_SIZE	freestanding-inc/stddef.h	193;"	d
+_T_SIZE_	freestanding-inc/stddef.h	192;"	d
+_T_WCHAR	freestanding-inc/stddef.h	268;"	d
+_T_WCHAR_	freestanding-inc/stddef.h	267;"	d
+_UA_CLEANUP_PHASE	freestanding-inc/unwind.h	102;"	d
+_UA_END_OF_STACK	freestanding-inc/unwind.h	105;"	d
+_UA_FORCE_UNWIND	freestanding-inc/unwind.h	104;"	d
+_UA_HANDLER_FRAME	freestanding-inc/unwind.h	103;"	d
+_UA_SEARCH_PHASE	freestanding-inc/unwind.h	101;"	d
+_UNWIND_H	freestanding-inc/unwind.h	32;"	d
+_URC_CONTINUE_UNWIND	freestanding-inc/unwind.h	/^  _URC_CONTINUE_UNWIND = 8$/;"	e	enum:__anon7
+_URC_END_OF_STACK	freestanding-inc/unwind.h	/^  _URC_END_OF_STACK = 5,$/;"	e	enum:__anon7
+_URC_FATAL_PHASE1_ERROR	freestanding-inc/unwind.h	/^  _URC_FATAL_PHASE1_ERROR = 3,$/;"	e	enum:__anon7
+_URC_FATAL_PHASE2_ERROR	freestanding-inc/unwind.h	/^  _URC_FATAL_PHASE2_ERROR = 2,$/;"	e	enum:__anon7
+_URC_FOREIGN_EXCEPTION_CAUGHT	freestanding-inc/unwind.h	/^  _URC_FOREIGN_EXCEPTION_CAUGHT = 1,$/;"	e	enum:__anon7
+_URC_HANDLER_FOUND	freestanding-inc/unwind.h	/^  _URC_HANDLER_FOUND = 6,$/;"	e	enum:__anon7
+_URC_INSTALL_CONTEXT	freestanding-inc/unwind.h	/^  _URC_INSTALL_CONTEXT = 7,$/;"	e	enum:__anon7
+_URC_NORMAL_STOP	freestanding-inc/unwind.h	/^  _URC_NORMAL_STOP = 4,$/;"	e	enum:__anon7
+_URC_NO_REASON	freestanding-inc/unwind.h	/^  _URC_NO_REASON = 0,$/;"	e	enum:__anon7
+_Unwind_Action	freestanding-inc/unwind.h	/^typedef int _Unwind_Action;$/;"	t
+_Unwind_Exception	freestanding-inc/unwind.h	/^struct _Unwind_Exception$/;"	s
+_Unwind_Exception_Class	freestanding-inc/unwind.h	/^typedef unsigned _Unwind_Exception_Class __attribute__((__mode__(__DI__)));$/;"	t
+_Unwind_Exception_Cleanup_Fn	freestanding-inc/unwind.h	/^typedef void (*_Unwind_Exception_Cleanup_Fn) (_Unwind_Reason_Code,$/;"	t
+_Unwind_GetDataRelBase	freestanding-inc/unwind.h	/^_Unwind_GetDataRelBase (struct _Unwind_Context *_C)$/;"	f
+_Unwind_GetTextRelBase	freestanding-inc/unwind.h	/^_Unwind_GetTextRelBase (struct _Unwind_Context *_C __attribute__ ((__unused__)))$/;"	f
+_Unwind_Internal_Ptr	freestanding-inc/unwind.h	/^typedef unsigned _Unwind_Internal_Ptr __attribute__((__mode__(__pointer__)));$/;"	t
+_Unwind_Personality_Fn	freestanding-inc/unwind.h	/^typedef _Unwind_Reason_Code (*_Unwind_Personality_Fn)$/;"	t
+_Unwind_Ptr	freestanding-inc/unwind.h	/^typedef unsigned _Unwind_Ptr __attribute__((__mode__(__pointer__)));$/;"	t
+_Unwind_Ptr	freestanding-inc/unwind.h	/^typedef unsigned _Unwind_Ptr __attribute__((__mode__(__word__)));$/;"	t
+_Unwind_Reason_Code	freestanding-inc/unwind.h	/^} _Unwind_Reason_Code;$/;"	t	typeref:enum:__anon7
+_Unwind_Stop_Fn	freestanding-inc/unwind.h	/^typedef _Unwind_Reason_Code (*_Unwind_Stop_Fn)$/;"	t
+_Unwind_Sword	freestanding-inc/unwind.h	/^typedef signed _Unwind_Sword __attribute__((__mode__(__word__)));$/;"	t
+_Unwind_Trace_Fn	freestanding-inc/unwind.h	/^typedef _Unwind_Reason_Code (*_Unwind_Trace_Fn)$/;"	t
+_Unwind_Word	freestanding-inc/unwind.h	/^typedef unsigned _Unwind_Word __attribute__((__mode__(__word__)));$/;"	t
+_VARARGS_H	freestanding-inc/varargs.h	2;"	d
+_VA_LIST	freestanding-inc/stdarg.h	114;"	d
+_VA_LIST	freestanding-inc/stdarg.h	66;"	d
+_VA_LIST	freestanding-inc/stdarg.h	82;"	d
+_VA_LIST_	freestanding-inc/stdarg.h	111;"	d
+_VA_LIST_	freestanding-inc/stdarg.h	79;"	d
+_VA_LIST_DEFINED	freestanding-inc/stdarg.h	117;"	d
+_VA_LIST_T_H	freestanding-inc/stdarg.h	120;"	d
+_WCHAR_T	freestanding-inc/stddef.h	266;"	d
+_WCHAR_T	freestanding-inc/stddef.h	78;"	d
+_WCHAR_T_	freestanding-inc/stddef.h	270;"	d
+_WCHAR_T_	freestanding-inc/stddef.h	374;"	d
+_WCHAR_T_	freestanding-inc/stddef.h	387;"	d
+_WCHAR_T_	freestanding-inc/stddef.h	91;"	d
+_WCHAR_T_DECLARED	freestanding-inc/stddef.h	278;"	d
+_WCHAR_T_DEFINED	freestanding-inc/stddef.h	273;"	d
+_WCHAR_T_DEFINED_	freestanding-inc/stddef.h	272;"	d
+_WCHAR_T_H	freestanding-inc/stddef.h	274;"	d
+_WINT_T	freestanding-inc/stddef.h	349;"	d
+__GNUC_VA_LIST	freestanding-inc/stdarg.h	42;"	d
+__INT_WCHAR_T_H	freestanding-inc/stddef.h	276;"	d
+__PTRDIFF_T	freestanding-inc/stddef.h	143;"	d
+__PTRDIFF_TYPE__	freestanding-inc/stddef.h	149;"	d
+__SIZE_T	freestanding-inc/stddef.h	194;"	d
+__SIZE_TYPE__	freestanding-inc/stddef.h	210;"	d
+__SIZE_T__	freestanding-inc/stddef.h	189;"	d
+__STDDEF_H__	freestanding-inc/stddef.h	47;"	d
+__VA_LIST	freestanding-inc/stdarg.h	87;"	d
+__WCHAR_T	freestanding-inc/stddef.h	269;"	d
+__WCHAR_TYPE__	freestanding-inc/stddef.h	322;"	d
+__WCHAR_T__	freestanding-inc/stddef.h	265;"	d
+__WINT_TYPE__	freestanding-inc/stddef.h	352;"	d
+___int_ptrdiff_t_h	freestanding-inc/stddef.h	146;"	d
+___int_size_t_h	freestanding-inc/stddef.h	201;"	d
+___int_wchar_t_h	freestanding-inc/stddef.h	275;"	d
+__bool_true_false_are_defined	freestanding-inc/stdbool.h	51;"	d
+__gnuc_va_list	freestanding-inc/stdarg.h	/^typedef __builtin_va_list __gnuc_va_list;$/;"	t
+__need_NULL	freestanding-inc/stddef.h	408;"	d
+__need___va_list	freestanding-inc/stdarg.h	37;"	d
+__need_ptrdiff_t	freestanding-inc/stddef.h	162;"	d
+__need_size_t	freestanding-inc/stddef.h	235;"	d
+__need_wchar_t	freestanding-inc/stddef.h	344;"	d
+__need_wint_t	freestanding-inc/stddef.h	356;"	d
+__size_t	freestanding-inc/stddef.h	207;"	d
+__size_t__	freestanding-inc/stddef.h	188;"	d
+__va_copy	freestanding-inc/stdarg.h	56;"	d
+__va_list__	freestanding-inc/stdarg.h	123;"	d
+__wchar_t__	freestanding-inc/stddef.h	264;"	d
+_cp0regdef_h_	cp0regdefs.h	8;"	d
+_panic	printk.c	/^_panic(const char *file, int line, const char *fmt, ...)$/;"	f
+_print_h_	print.h	13;"	d
+_printf_h_	printk.h	13;"	d
+_start	kernel.c	/^void __attribute__((section(".entry_function"))) _start(void)$/;"	f
+_start	process1.c	/^void __attribute__((section(".entry_function"))) _start(void)$/;"	f
+_start	process2.c	/^void __attribute__((section(".entry_function"))) _start(void)$/;"	f
+_start	test_all/process1.c	/^void __attribute__((section(".entry_function"))) _start(void)$/;"	f
+_start	test_all/process2.c	/^void __attribute__((section(".entry_function"))) _start(void)$/;"	f
+_start	test_preempt/process1.c	/^void _start(void)$/;"	f
+_start	test_preempt/process2.c	/^void _start(void)$/;"	f
+a0	regs.h	8;"	d
+a1	regs.h	9;"	d
+a2	regs.h	10;"	d
+a3	regs.h	11;"	d
+abs	freestanding-inc/g2c.h	165;"	d
+addr	freestanding-inc/g2c.h	/^	char *addr;$/;"	m	struct:Vardesc
+address	freestanding-inc/g2c.h	/^typedef char *address;$/;"	t
+aerr	freestanding-inc/g2c.h	/^{	flag aerr;$/;"	m	struct:__anon14
+alias_unsigned	printf.c	/^typedef unsigned __attribute__((__may_alias__)) alias_unsigned;$/;"	t	file:
+alist	freestanding-inc/g2c.h	/^} alist;$/;"	t	typeref:struct:__anon14
+and	freestanding-inc/iso646.h	35;"	d
+and_eq	freestanding-inc/iso646.h	36;"	d
+atoi	util.c	/^uint32_t atoi(char *s)$/;"	f
+aunit	freestanding-inc/g2c.h	/^	ftnint aunit;$/;"	m	struct:__anon14
+base	kernel.h	/^    uint32_t base;$/;"	m	struct:point_t
+bcopy	util.c	/^void bcopy(char *source, char *destin, int size)$/;"	f
+bit_clear	freestanding-inc/g2c.h	172;"	d
+bit_set	freestanding-inc/g2c.h	173;"	d
+bit_test	freestanding-inc/g2c.h	171;"	d
+bitand	freestanding-inc/iso646.h	37;"	d
+bitor	freestanding-inc/iso646.h	38;"	d
+block	scheduler.c	/^void block(node_t * wait_queue){$/;"	f
+blocking_lock	scheduler.h	/^     void* blocking_lock;$/;"	m	struct:pcb
+bool	freestanding-inc/stdbool.h	36;"	d
+bool	freestanding-inc/stdbool.h	44;"	d
+bool_t	common.h	/^} bool_t;$/;"	t	typeref:enum:__anon20
+bzero	util.c	/^void bzero(char *area, int size)$/;"	f
+c	freestanding-inc/g2c.h	/^	complex c;$/;"	m	union:Multitype
+c_simple_handler	interrupt.c	/^void c_simple_handler(int ip_source, int exc_code)$/;"	f
+cerr	freestanding-inc/g2c.h	/^{	flag cerr;$/;"	m	struct:__anon13
+check_sleeping	scheduler.c	/^void check_sleeping(){$/;"	f
+ciend	freestanding-inc/g2c.h	/^	flag ciend;$/;"	m	struct:__anon10
+cierr	freestanding-inc/g2c.h	/^{	flag cierr;$/;"	m	struct:__anon10
+cifmt	freestanding-inc/g2c.h	/^	char *cifmt;$/;"	m	struct:__anon10
+cilist	freestanding-inc/g2c.h	/^} cilist;$/;"	t	typeref:struct:__anon10
+cirec	freestanding-inc/g2c.h	/^	ftnint cirec;$/;"	m	struct:__anon10
+ciunit	freestanding-inc/g2c.h	/^	ftnint ciunit;$/;"	m	struct:__anon10
+clear_screen	util.c	/^void clear_screen(int minx, int miny, int maxx, int maxy)$/;"	f
+cllist	freestanding-inc/g2c.h	/^} cllist;$/;"	t	typeref:struct:__anon13
+clock_thread	test_all/th1.c	/^void clock_thread(void)$/;"	f
+clock_thread	test_preempt/th1.c	/^void clock_thread(void)$/;"	f
+clock_thread	th1.c	/^void clock_thread(void)$/;"	f
+compl	freestanding-inc/iso646.h	39;"	d
+complex	freestanding-inc/g2c.h	/^typedef struct { real r, i; } complex;$/;"	t	typeref:struct:__anon8
+counter	test_blocksleep/th1.c	/^volatile int counter = 0;$/;"	v
+cp0_badvaddr	scheduler.h	/^     uint32_t cp0_badvaddr;$/;"	m	struct:Trapframe
+cp0_cause	scheduler.h	/^     uint32_t cp0_cause;$/;"	m	struct:Trapframe
+cp0_epc	scheduler.h	/^     uint32_t cp0_epc;$/;"	m	struct:Trapframe
+cp0_status	scheduler.h	/^     uint32_t cp0_status;$/;"	m	struct:Trapframe
+cray	freestanding-inc/g2c.h	215;"	d
+create_image	createimage.c	/^static void create_image(int nfiles, char *files[])$/;"	f	file:
+csta	freestanding-inc/g2c.h	/^	char *csta;$/;"	m	struct:__anon13
+cunit	freestanding-inc/g2c.h	/^	ftnint cunit;$/;"	m	struct:__anon13
+current_running	scheduler.c	/^pcb_t *current_running;$/;"	v
+d	freestanding-inc/g2c.h	/^	doublereal d;$/;"	m	union:Multitype
+dabs	freestanding-inc/g2c.h	166;"	d
+deadline	scheduler.h	/^     uint64_t deadline;$/;"	m	struct:pcb
+delays	util.c	/^void delays(void){$/;"	f
+dequeue	queue.c	/^node_t *dequeue(node_t * queue){$/;"	f
+dims	freestanding-inc/g2c.h	/^	ftnlen *dims;$/;"	m	struct:Vardesc
+dirty_yield	helper.S	/^dirty_yield:$/;"	l
+disable_count	entry.S	/^disable_count:$/;"	l
+dmax	freestanding-inc/g2c.h	170;"	d
+dmin	freestanding-inc/g2c.h	169;"	d
+do_exit	scheduler.c	/^void do_exit(){$/;"	f
+do_getpid	scheduler.c	/^pid_t do_getpid(){$/;"	f
+do_getpriority	scheduler.c	/^priority_t do_getpriority(){$/;"	f
+do_gettimeofday	scheduler.c	/^uint64_t do_gettimeofday(void){$/;"	f
+do_nothing	entry.S	/^do_nothing:$/;"	l
+do_setpriority	scheduler.c	/^void do_setpriority(priority_t priority){$/;"	f
+do_shutdown	kernel.c	/^void do_shutdown(void)$/;"	f
+do_sleep	scheduler.c	/^void do_sleep(int milliseconds){$/;"	f
+do_write_serial	kernel.c	/^void do_write_serial(int character)$/;"	f
+do_yield	scheduler.c	/^void do_yield(){$/;"	f
+doublecomplex	freestanding-inc/g2c.h	/^typedef struct { doublereal r, i; } doublecomplex;$/;"	t	typeref:struct:__anon9
+doublereal	freestanding-inc/g2c.h	/^typedef double doublereal;$/;"	t
+draw	process1.c	/^static void draw(int loc_x, int loc_y, int plane)$/;"	f	file:
+draw	test_all/process1.c	/^static void draw(int loc_x, int loc_y, int plane)$/;"	f	file:
+enqueue	queue.c	/^void enqueue(node_t * queue, node_t * item){$/;"	f
+enqueue_sort	queue.c	/^void enqueue_sort(node_t *q, node_t *elt, node_lte lte){$/;"	f
+entry_count	scheduler.h	/^     uint32_t entry_count; \/\/ how many times this task has been pre-emtped to$/;"	m	struct:pcb
+entry_point	scheduler.h	/^     uint32_t entry_point;$/;"	m	struct:pcb
+entry_point	scheduler.h	/^     uint32_t entry_point;$/;"	m	struct:task_info
+error	createimage.c	/^static void error(char *fmt, ...)$/;"	f	file:
+esp_save	helper.S	/^esp_save:$/;"	l
+exception_class	freestanding-inc/unwind.h	/^  _Unwind_Exception_Class exception_class;$/;"	m	struct:_Unwind_Exception
+exception_cleanup	freestanding-inc/unwind.h	/^  _Unwind_Exception_Cleanup_Fn exception_cleanup;$/;"	m	struct:_Unwind_Exception
+exception_handler_end	entry.S	/^exception_handler_end:$/;"	l
+exception_handler_start	entry.S	/^exception_handler_start:$/;"	l
+exit	syslib.c	/^void exit(void){$/;"	f
+extended	createimage.c	/^    int extended;$/;"	m	struct:__anon6	file:
+f	Makefile	/^	dd if=\/dev\/zero of=floppy.img bs=512 count=2880$/;"	m
+f	Makefile	/^	dd if=image of=floppy.img conv=notrunc$/;"	m
+fake_irq7	interrupt.c	/^void fake_irq7(void)$/;"	f
+false	freestanding-inc/stdbool.h	38;"	d
+false	freestanding-inc/stdbool.h	45;"	d
+flag	freestanding-inc/g2c.h	/^typedef __g77_integer flag;$/;"	t
+flag	freestanding-inc/g2c.h	/^typedef short flag;$/;"	t
+fp	regs.h	45;"	d
+ftnint	freestanding-inc/g2c.h	/^typedef __g77_integer ftnint;$/;"	t
+ftnint	freestanding-inc/g2c.h	/^typedef short ftnint;$/;"	t
+ftnlen	freestanding-inc/g2c.h	/^typedef __g77_integer ftnlen;$/;"	t
+ftnlen	freestanding-inc/g2c.h	/^typedef short ftnlen;$/;"	t
+g	freestanding-inc/g2c.h	/^	integer1 g;$/;"	m	union:Multitype
+gcos	freestanding-inc/g2c.h	216;"	d
+get_timer	scheduler.c	/^uint64_t get_timer(void) {$/;"	f
+getpid	syslib.c	/^int getpid(void){$/;"	f
+getpriority	syslib.c	/^int getpriority(void){$/;"	f
+gp	regs.h	42;"	d
+h	freestanding-inc/g2c.h	/^	shortint h;$/;"	m	union:Multitype
+held_task	sync.h	/^    pcb_t* held_task;$/;"	m	struct:__anon16
+hi	scheduler.h	/^     uint32_t hi;$/;"	m	struct:Trapframe
+i	freestanding-inc/g2c.h	/^	integer i;$/;"	m	union:Multitype
+i	freestanding-inc/g2c.h	/^typedef struct { doublereal r, i; } doublecomplex;$/;"	m	struct:__anon9
+i	freestanding-inc/g2c.h	/^typedef struct { real r, i; } complex;$/;"	m	struct:__anon8
+iciend	freestanding-inc/g2c.h	/^	flag iciend;$/;"	m	struct:__anon11
+icierr	freestanding-inc/g2c.h	/^{	flag icierr;$/;"	m	struct:__anon11
+icifmt	freestanding-inc/g2c.h	/^	char *icifmt;$/;"	m	struct:__anon11
+icilist	freestanding-inc/g2c.h	/^} icilist;$/;"	t	typeref:struct:__anon11
+icirlen	freestanding-inc/g2c.h	/^	ftnint icirlen;$/;"	m	struct:__anon11
+icirnum	freestanding-inc/g2c.h	/^	ftnint icirnum;$/;"	m	struct:__anon11
+iciunit	freestanding-inc/g2c.h	/^	char *iciunit;$/;"	m	struct:__anon11
+inacc	freestanding-inc/g2c.h	/^	char	*inacc;$/;"	m	struct:__anon15
+inacclen	freestanding-inc/g2c.h	/^	ftnlen	inacclen;$/;"	m	struct:__anon15
+inblank	freestanding-inc/g2c.h	/^	char	*inblank;$/;"	m	struct:__anon15
+inblanklen	freestanding-inc/g2c.h	/^	ftnlen	inblanklen;$/;"	m	struct:__anon15
+indir	freestanding-inc/g2c.h	/^	char 	*indir;$/;"	m	struct:__anon15
+indirlen	freestanding-inc/g2c.h	/^	ftnlen	indirlen;$/;"	m	struct:__anon15
+inerr	freestanding-inc/g2c.h	/^{	flag inerr;$/;"	m	struct:__anon15
+inex	freestanding-inc/g2c.h	/^	ftnint	*inex;	\/*parameters in standard's order*\/$/;"	m	struct:__anon15
+infile	freestanding-inc/g2c.h	/^	char *infile;$/;"	m	struct:__anon15
+infilen	freestanding-inc/g2c.h	/^	ftnlen infilen;$/;"	m	struct:__anon15
+infmt	freestanding-inc/g2c.h	/^	char	*infmt;$/;"	m	struct:__anon15
+infmtlen	freestanding-inc/g2c.h	/^	ftnlen	infmtlen;$/;"	m	struct:__anon15
+inform	freestanding-inc/g2c.h	/^	char	*inform;$/;"	m	struct:__anon15
+informlen	freestanding-inc/g2c.h	/^	ftnint	informlen;$/;"	m	struct:__anon15
+init_interrupts	interrupt.c	/^void init_interrupts(void)$/;"	f
+init_syscalls	kernel.c	/^static void init_syscalls()$/;"	f	file:
+initialize_pcb	kernel.c	/^static void initialize_pcb(pcb_t *p, pid_t pid, struct task_info *ti)$/;"	f	file:
+inlist	freestanding-inc/g2c.h	/^} inlist;$/;"	t	typeref:struct:__anon15
+inname	freestanding-inc/g2c.h	/^	char	*inname;$/;"	m	struct:__anon15
+innamed	freestanding-inc/g2c.h	/^	ftnint	*innamed;$/;"	m	struct:__anon15
+innamlen	freestanding-inc/g2c.h	/^	ftnlen	innamlen;$/;"	m	struct:__anon15
+innrec	freestanding-inc/g2c.h	/^	ftnint	*innrec;$/;"	m	struct:__anon15
+innum	freestanding-inc/g2c.h	/^	ftnint	*innum;$/;"	m	struct:__anon15
+inopen	freestanding-inc/g2c.h	/^	ftnint	*inopen;$/;"	m	struct:__anon15
+inrecl	freestanding-inc/g2c.h	/^	ftnint	*inrecl;$/;"	m	struct:__anon15
+inseq	freestanding-inc/g2c.h	/^	char	*inseq;$/;"	m	struct:__anon15
+inseqlen	freestanding-inc/g2c.h	/^	ftnlen	inseqlen;$/;"	m	struct:__anon15
+int16_t	common.h	/^typedef short int int16_t;$/;"	t
+int32_t	common.h	/^typedef long int32_t;$/;"	t
+int64_t	common.h	/^typedef long long int64_t;$/;"	t
+int8_t	common.h	/^typedef signed char int8_t;$/;"	t
+integer	freestanding-inc/g2c.h	/^typedef __g77_integer integer;$/;"	t
+integer1	freestanding-inc/g2c.h	/^typedef char integer1;$/;"	t
+interrupt_handlers	interrupt.c	/^uint32_t interrupt_handlers[8];$/;"	v
+inunf	freestanding-inc/g2c.h	/^	char	*inunf;$/;"	m	struct:__anon15
+inunflen	freestanding-inc/g2c.h	/^	ftnlen	inunflen;$/;"	m	struct:__anon15
+inunit	freestanding-inc/g2c.h	/^	ftnint inunit;$/;"	m	struct:__anon15
+invalid_syscall	kernel.c	/^static int invalid_syscall(void)$/;"	f	file:
+is_empty	queue.c	/^int is_empty(node_t *queue){$/;"	f
+itoa	util.c	/^void itoa(uint32_t n, char *s)$/;"	f
+itohex	util.c	/^void itohex(uint32_t n, char *s)$/;"	f
+k0	regs.h	39;"	d
+k1	regs.h	40;"	d
+kernel	bootblock.S	/^kernel: .word 0xa0800200$/;"	l
+kernel_main	bootblock.S	/^kernel_main: .word 0xa0800200$/;"	l
+kernel_tf	scheduler.h	/^     trapframe_t kernel_tf;$/;"	m	struct:pcb
+limit	kernel.h	/^    uint16_t limit;$/;"	m	struct:point_t
+line_all	util.c	/^int line_all =0;$/;"	v
+lo	scheduler.h	/^     uint32_t lo;$/;"	m	struct:Trapframe
+lock_acquire	sync.c	/^int lock_acquire(lock_t * l){$/;"	f
+lock_acquire_helper	sync.c	/^static int lock_acquire_helper(lock_t * l){$/;"	f	file:
+lock_init	sync.c	/^void lock_init(lock_t * l){$/;"	f
+lock_release	sync.c	/^void lock_release(lock_t * l){$/;"	f
+lock_release_helper	sync.c	/^static void lock_release_helper(lock_t * l){$/;"	f	file:
+lock_t	sync.h	/^} lock_t;$/;"	t	typeref:struct:__anon16
+logical	freestanding-inc/g2c.h	/^typedef __g77_integer logical;$/;"	t
+logical1	freestanding-inc/g2c.h	/^typedef char logical1;$/;"	t
+longint	freestanding-inc/g2c.h	/^typedef __g77_longint longint;			\/* system-dependent *\/$/;"	t
+lp_Print	print.c	/^lp_Print(void (*output)(void *, char *, int),$/;"	f
+lte_deadline	scheduler.c	/^int lte_deadline(node_t *a, node_t *b) {$/;"	f
+main	bootblock.S	/^main:$/;"	l
+main	createimage.c	/^int main(int argc, char **argv)$/;"	f
+mask_hw_int	interrupt.c	/^void mask_hw_int(int irq)$/;"	f
+max	freestanding-inc/g2c.h	168;"	d
+mc68010	freestanding-inc/g2c.h	217;"	d
+mc68020	freestanding-inc/g2c.h	218;"	d
+min	freestanding-inc/g2c.h	167;"	d
+mips	freestanding-inc/g2c.h	219;"	d
+myoutput	printk.c	/^static void myoutput(void *arg, char *s, int l)$/;"	f	file:
+name	freestanding-inc/g2c.h	/^	char *name;$/;"	m	struct:Namelist
+name	freestanding-inc/g2c.h	/^	char *name;$/;"	m	struct:Vardesc
+nested_count	scheduler.h	/^     int nested_count;$/;"	m	struct:pcb
+next	queue.h	/^    struct node *prev, *next;$/;"	m	struct:node	typeref:struct:node::
+node	queue.h	/^typedef struct node {$/;"	s
+node	scheduler.h	/^     node_t node;$/;"	m	struct:pcb
+node_lte	queue.h	/^typedef int (*node_lte)(node_t *a, node_t *b);$/;"	t
+node_t	queue.h	/^} node_t;$/;"	t	typeref:struct:node
+not	freestanding-inc/iso646.h	40;"	d
+not_eq	freestanding-inc/iso646.h	41;"	d
+nvars	freestanding-inc/g2c.h	/^	int nvars;$/;"	m	struct:Namelist
+oacc	freestanding-inc/g2c.h	/^	char *oacc;$/;"	m	struct:__anon12
+oblnk	freestanding-inc/g2c.h	/^	char *oblnk;$/;"	m	struct:__anon12
+oerr	freestanding-inc/g2c.h	/^{	flag oerr;$/;"	m	struct:__anon12
+offsetof	freestanding-inc/stddef.h	414;"	d
+offsetof	freestanding-inc/stddef.h	418;"	d
+ofm	freestanding-inc/g2c.h	/^	char *ofm;$/;"	m	struct:__anon12
+ofnm	freestanding-inc/g2c.h	/^	char *ofnm;$/;"	m	struct:__anon12
+ofnmlen	freestanding-inc/g2c.h	/^	ftnlen ofnmlen;$/;"	m	struct:__anon12
+olist	freestanding-inc/g2c.h	/^} olist;$/;"	t	typeref:struct:__anon12
+options	createimage.c	/^} options;$/;"	v	typeref:struct:__anon6	file:
+or	freestanding-inc/iso646.h	42;"	d
+or_eq	freestanding-inc/iso646.h	43;"	d
+orl	freestanding-inc/g2c.h	/^	ftnint orl;$/;"	m	struct:__anon12
+os_size	bootblock.S	/^os_size: .word$/;"	l
+osta	freestanding-inc/g2c.h	/^	char *osta;$/;"	m	struct:__anon12
+ounit	freestanding-inc/g2c.h	/^	ftnint ounit;$/;"	m	struct:__anon12
+panic	printk.h	23;"	d
+pc	scheduler.h	/^     uint32_t pc;$/;"	m	struct:Trapframe
+pcb	kernel.c	/^pcb_t pcb[NUM_PCBS];$/;"	v
+pcb	scheduler.h	/^typedef struct pcb {$/;"	s
+pcb_t	scheduler.h	/^} pcb_t;$/;"	t	typeref:struct:pcb
+pdp11	freestanding-inc/g2c.h	220;"	d
+peek	queue.c	/^node_t *peek(node_t *queue){$/;"	f
+picture	process1.c	/^static char picture[ROWS][COLUMNS + 1] = {$/;"	v	file:
+picture	test_all/process1.c	/^static char picture[ROWS][COLUMNS + 1] = {$/;"	v	file:
+pid	scheduler.h	/^     pid_t pid;$/;"	m	struct:pcb
+pid_t	common.h	/^typedef int pid_t;$/;"	t
+point_t	kernel.h	/^struct point_t {$/;"	s
+prev	queue.h	/^    struct node *prev, *next;$/;"	m	struct:node	typeref:struct:node::node
+print_char	kernel.c	/^int print_char(int line, int col, char c){$/;"	f
+print_char	syslib.c	/^int print_char(int line, int col, char c){$/;"	f
+print_color	util.c	/^void print_color(char *s, char *color){$/;"	f
+print_hex	util.c	/^void print_hex(int line, int col, uint32_t num)$/;"	f
+print_int	util.c	/^void print_int(int line, int col, int num)$/;"	f
+print_location	util.c	/^void print_location(int x, int y){$/;"	f
+print_status	kernel.c	/^void print_status(void)$/;"	f
+print_str	util.c	/^void print_str(int line, int col, char *str)$/;"	f
+printcharc	kernel.c	/^void printcharc(char ch)$/;"	f
+printf	printf.c	/^void printf(int line, int col, char *format, ...)$/;"	f
+printf_c	printf.c	/^static void printf_c(int *line, int *col, char c)$/;"	f	file:
+printf_d	printf.c	/^static void printf_d(int *line, int *col, int d)$/;"	f	file:
+printf_s	printf.c	/^static void printf_s(int *line, int *col, char *s)$/;"	f	file:
+printf_u	printf.c	/^static void printf_u(int *line, int *col, unsigned u)$/;"	f	file:
+printf_x	printf.c	/^static void printf_x(int *line, int *col, unsigned x)$/;"	f	file:
+printk	printk.c	/^void printk(char *fmt, ...)$/;"	f
+printstr	util.c	/^void printstr(char *s){$/;"	f
+priority	scheduler.h	/^     priority_t priority;$/;"	m	struct:pcb
+priority_t	scheduler.h	/^typedef int priority_t;$/;"	t
+private_1	freestanding-inc/unwind.h	/^  _Unwind_Word private_1;$/;"	m	struct:_Unwind_Exception
+private_2	freestanding-inc/unwind.h	/^  _Unwind_Word private_2;$/;"	m	struct:_Unwind_Exception
+ps_thread	test_preempt/th2.c	/^void ps_thread(void)$/;"	f
+ptrdiff_t	freestanding-inc/stddef.h	/^typedef __PTRDIFF_TYPE__ ptrdiff_t;$/;"	t
+put_current_running	scheduler.c	/^void put_current_running(){$/;"	f
+qbit_clear	freestanding-inc/g2c.h	35;"	d
+qbit_set	freestanding-inc/g2c.h	36;"	d
+queue_init	queue.c	/^void queue_init(node_t * queue){$/;"	f
+r	freestanding-inc/g2c.h	/^	real r;$/;"	m	union:Multitype
+r	freestanding-inc/g2c.h	/^typedef struct { doublereal r, i; } doublecomplex;$/;"	m	struct:__anon9
+r	freestanding-inc/g2c.h	/^typedef struct { real r, i; } complex;$/;"	m	struct:__anon8
+ra	regs.h	46;"	d
+rand	util.c	/^uint32_t rand(void)$/;"	f
+rand_step	util.c	/^uint32_t rand_step(uint32_t seed)$/;"	f
+rand_val	util.c	/^static uint32_t rand_val;$/;"	v	file:
+read	bootblock.S	/^read: .word 0x8007b1a8$/;"	l
+read_ehdr	createimage.c	/^static void read_ehdr(Elf32_Ehdr * ehdr, FILE * fp)$/;"	f	file:
+read_phdr	createimage.c	/^static void read_phdr(Elf32_Phdr * phdr, FILE * fp, int ph,$/;"	f	file:
+ready_queue	scheduler.c	/^node_t ready_queue;$/;"	v
+real	freestanding-inc/g2c.h	/^typedef float real;$/;"	t
+rec	process2.c	/^static int rec(int n)$/;"	f	file:
+rec	test_all/process2.c	/^static int rec(int n)$/;"	f	file:
+regs	scheduler.h	/^     uint32_t regs[32];$/;"	m	struct:Trapframe
+ret	entry.S	/^ret:$/;"	l
+return_value	entry.S	/^return_value:$/;"	l
+reverse	util.c	/^void reverse(char *s)$/;"	f
+rune_t	freestanding-inc/stddef.h	/^typedef _BSD_RUNE_T_ rune_t;$/;"	t
+rune_t	freestanding-inc/stddef.h	/^typedef __rune_t        rune_t;$/;"	t
+s0	regs.h	27;"	d
+s1	regs.h	28;"	d
+s2	regs.h	29;"	d
+s3	regs.h	30;"	d
+s4	regs.h	31;"	d
+s5	regs.h	32;"	d
+s6	regs.h	33;"	d
+s7	regs.h	34;"	d
+s8	regs.h	35;"	d
+same_string	util.c	/^int same_string(char *s1, char *s2)$/;"	f
+scheduler	scheduler.c	/^void scheduler(){$/;"	f
+scratch	entry.S	/^scratch:$/;"	l
+scratch2	entry.S	/^scratch2:$/;"	l
+setpriority	syslib.c	/^void setpriority(int p){$/;"	f
+sgi	freestanding-inc/g2c.h	221;"	d
+shortint	freestanding-inc/g2c.h	/^typedef short int shortint;$/;"	t
+shortlogical	freestanding-inc/g2c.h	/^typedef short int shortlogical;$/;"	t
+shutdown	syslib.c	/^void shutdown(void){$/;"	f
+size_t	freestanding-inc/stddef.h	/^typedef __SIZE_TYPE__ size_t;$/;"	t
+sleep	syslib.c	/^void sleep(int milliseconds){$/;"	f
+sleep_wait_queue	scheduler.c	/^node_t sleep_wait_queue;$/;"	v
+sp	regs.h	44;"	d
+sparc	freestanding-inc/g2c.h	222;"	d
+srand	util.c	/^void srand(uint32_t seed)$/;"	f
+ssize_t	freestanding-inc/stddef.h	/^typedef long ssize_t;$/;"	t
+stack_new	kernel.c	/^static uint32_t *stack_new()$/;"	f	file:
+status	scheduler.h	/^     status_t status;$/;"	m	struct:pcb
+status	sync.h	/^    } status;$/;"	m	struct:__anon16	typeref:enum:__anon16::__anon17
+status_t	scheduler.h	/^} status_t;$/;"	t	typeref:enum:__anon3
+strlen	util.c	/^int strlen(char *s)$/;"	f
+sun	freestanding-inc/g2c.h	223;"	d
+sun2	freestanding-inc/g2c.h	224;"	d
+sun3	freestanding-inc/g2c.h	225;"	d
+sun4	freestanding-inc/g2c.h	226;"	d
+syscall	kernel.c	/^int (*syscall[NUM_SYSCALLS]) ();$/;"	v
+syscall_t	common.h	/^} syscall_t;$/;"	t	typeref:enum:__anon19
+system_call_helper	interrupt.c	/^void system_call_helper(int fn, int arg1, int arg2, int arg3)$/;"	f
+t0	regs.h	13;"	d
+t1	regs.h	14;"	d
+t2	regs.h	15;"	d
+t3	regs.h	16;"	d
+t4	regs.h	17;"	d
+t5	regs.h	18;"	d
+t6	regs.h	19;"	d
+t7	regs.h	20;"	d
+t8	regs.h	37;"	d
+t9	regs.h	38;"	d
+ta0	regs.h	22;"	d
+ta1	regs.h	23;"	d
+ta2	regs.h	24;"	d
+ta3	regs.h	25;"	d
+task	tasks.c	/^struct task_info task[] = {$/;"	v	typeref:struct:task_info
+task	test_all/tasks.c	/^struct task_info task[] = {$/;"	v	typeref:struct:task_info
+task	test_blocksleep/tasks.c	/^struct task_info task[] = {$/;"	v	typeref:struct:task_info
+task	test_preempt/tasks.c	/^struct task_info task[] = {$/;"	v	typeref:struct:task_info
+task_info	scheduler.h	/^struct task_info {$/;"	s
+task_type	scheduler.h	/^     task_type_t task_type;$/;"	m	struct:pcb
+task_type	scheduler.h	/^     task_type_t task_type;$/;"	m	struct:task_info
+task_type_t	scheduler.h	/^} task_type_t;$/;"	t	typeref:enum:__anon2
+theFatalMsg	print.c	/^static const char theFatalMsg[] = "fatal error in lp_Print!";$/;"	v	file:
+thread_1	test_blocksleep/th1.c	/^void thread_1(void)$/;"	f
+thread_2	test_blocksleep/th1.c	/^void thread_2(void)$/;"	f
+time_elapsed	scheduler.c	/^volatile uint64_t time_elapsed;$/;"	v
+trapframe_t	scheduler.h	/^}trapframe_t;$/;"	t	typeref:struct:Trapframe
+true	freestanding-inc/stdbool.h	37;"	d
+true	freestanding-inc/stdbool.h	46;"	d
+type	freestanding-inc/g2c.h	/^	int  type;$/;"	m	struct:Vardesc
+u370	freestanding-inc/g2c.h	227;"	d
+u3b	freestanding-inc/g2c.h	228;"	d
+u3b2	freestanding-inc/g2c.h	229;"	d
+u3b5	freestanding-inc/g2c.h	230;"	d
+uint16_t	common.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	common.h	/^typedef unsigned long uint32_t;$/;"	t
+uint64_t	common.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	common.h	/^typedef unsigned char uint8_t;$/;"	t
+uinteger	freestanding-inc/g2c.h	/^typedef __g77_uinteger uinteger;$/;"	t
+ulongint	freestanding-inc/g2c.h	/^typedef __g77_ulongint ulongint;		\/* system-dependent *\/$/;"	t
+unblock	scheduler.c	/^void unblock(pcb_t * task){$/;"	f
+unblock_all	sync.c	/^static void unblock_all(node_t *wait_queue){$/;"	f	file:
+unblock_one	sync.c	/^static bool_t unblock_one(node_t *wait_enqueue)$/;"	f	file:
+unix	freestanding-inc/g2c.h	231;"	d
+unmask_hw_int	interrupt.c	/^void unmask_hw_int(int irq)$/;"	f
+user_tf	scheduler.h	/^     trapframe_t user_tf;$/;"	m	struct:pcb
+v0	regs.h	5;"	d
+v1	regs.h	6;"	d
+va_arg	freestanding-inc/stdarg.h	52;"	d
+va_copy	freestanding-inc/stdarg.h	54;"	d
+va_end	freestanding-inc/stdarg.h	51;"	d
+va_list	freestanding-inc/stdarg.h	/^typedef __gnuc_va_list va_list;$/;"	t
+va_start	freestanding-inc/stdarg.h	50;"	d
+vars	freestanding-inc/g2c.h	/^	Vardesc **vars;$/;"	m	struct:Namelist
+vax	freestanding-inc/g2c.h	232;"	d
+vm	createimage.c	/^    int vm;$/;"	m	struct:__anon6	file:
+wait_queue	sync.h	/^    node_t wait_queue;$/;"	m	struct:__anon16
+wint_t	freestanding-inc/stddef.h	/^typedef __WINT_TYPE__ wint_t;$/;"	t
+write_os_size	createimage.c	/^static void write_os_size(int nbytes, FILE * img)$/;"	f	file:
+write_segment	createimage.c	/^static void write_segment(Elf32_Ehdr ehdr, Elf32_Phdr phdr, FILE * fp,$/;"	f	file:
+write_serial	syslib.c	/^void write_serial(char c){$/;"	f
+xor	freestanding-inc/iso646.h	44;"	d
+xor_eq	freestanding-inc/iso646.h	45;"	d
+yield	syslib.c	/^void yield(void){$/;"	f
+z	freestanding-inc/g2c.h	/^	doublecomplex z;$/;"	m	union:Multitype
+zero	regs.h	1;"	d
